@@ -12,12 +12,12 @@
    ```sh 
    # Download tomcat
    cd /opt
-   wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.tar.gz
-   tar -xvzf apache-tomcat-8.5.84.tar.gz
+   wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.85/bin/apache-tomcat-8.5.85.tar.gz
+   tar -xvzf apache-tomcat-8.5.85.tar.gz
    ```
    Now Rename tomcat version to tomcat for better naming convention
    ```sh
-   mv apache-tomcat-8.5.84 tomcat
+   mv apache-tomcat-8.5.85 tomcat
    ```
 1. give executing permissions to startup.sh and shutdown.sh which are under bin. 
    ```sh
